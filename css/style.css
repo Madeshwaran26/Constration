@@ -94,8 +94,15 @@
 
 .log {
     height: 100px;
-    width: ;
 }
+
+.log-container img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover; /* Crops image to fit, maintaining ratio */
+}
+
+
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link .log {
